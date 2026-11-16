@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,17 +8,38 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
 </head>
+
 <body>
-  <header>
-    <h1>Beatriz Stênico Manoel dos Santos</h1>
-    <p>Estudante de Análise e Desenvolvimento de Sistemas (Fatec São Caetano do Sul)</p>
-    <button id="tema">Modo escuro</button>
+
+
+  <header class="hero">
+    <nav class="topbar" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">BS.</a>
+      <button id="tema" class="theme-button" type="button" aria-pressed="false">Ativar modo escuro</button>
+    </nav>
+
+    <div class="hero-content" id="inicio">
+      <p class="eyebrow">PORTFÓLIO • TECNOLOGIA E DESENVOLVIMENTO</p>
+      <h1>Beatriz Stênico<br><span>Manoel dos Santos</span></h1>
+      <p class="hero-subtitle">Estudante de Análise e Desenvolvimento de Sistemas</p>
+      <p class="hero-location">FATEC São Caetano do Sul · 4º semestre</p>
+      <div class="hero-actions">
+        <a class="button button-light" href="#projetos">Conheça meus projetos</a>
+        <a class="button button-outline" href="#contato">Entre em contato</a>
+      </div>
+    </div>
   </header>
+
 
   <main>
     <section>
       <h2>Sobre mim</h2>
-      <p>Sou estudante do 4º semestre de Análise e Desenvolvimento de Sistemas na FATEC São Caetano do Sul. Tenho interesse em desenvolvimento de software, banco de dados e inteligência artificial. Estou sempre buscando aprender novas tecnologias e desenvolver projetos que contribuam para minha evolução profissional.</p>
+      <p>Sou estudante do 4º semestre de Análise e Desenvolvimento de Sistemas na
+        FATEC São Caetano do Sul. Tenho interesse em desenvolvimento de software,
+        banco de dados e inteligência artificial. Busco ampliar meus conhecimentos
+        por meio dos estudos e de projetos práticos, desenvolvendo minha experiência
+        na área de tecnologia.
+      </p>
     </section>
 
     <section>
@@ -35,32 +57,40 @@
     </section>
 
     <section>
-      <h2>Projetos</h2>
-      <article>
-        <h3>Clinicall</h3>
-        <p>Sistema de gerenciamento de consultas e cadastro de pacientes, feito em VB.NET com banco de dados Access.</p>
-        <a href="https://github.com/biaaaa41602/Clinicall-System" target="_blank" rel="noopener">Ver no GitHub</a>
-      </article>
-      <article>
-        <h3>Pet Care System</h3>
-        <p>Projeto acadêmico de sistema para clínica veterinária, com levantamento de requisitos, análise e projeto.</p>
-      </article>
-    </section>
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <article>
+          <h3>Clinicall</h3>
+          <p>
+            Sistema de gerenciamento de consultas e cadastro de
+            pacientes, desenvolvido em VB.NET com banco de dados Access.
+          </p>
+          <a href="https://github.com/biaaaa41602/Clinicall-System" target="_blank" rel="noopener">Ver no GitHub</a>
+        </article>
+        <article>
+          <h3>Pet Care System</h3>
+          <p>Projeto acadêmico de sistema para clínica veterinária, envolvendo
+            levantamento de requisitos, análise e elaboração do projeto.
+          </p>
+        </article>
+      </section>
 
-    <section>
-      <h2>Contato</h2>
-      <p>
-        <a href="mailto:bia.stenico123@gmail.com">E-mail</a> ·
-        <a href="https://github.com/biaaaa41602" target="_blank" rel="noopener">GitHub</a> ·
-        <a href="https://www.linkedin.com/in/beatriz-stênico-ba3aa0321" target="_blank" rel="noopener">LinkedIn</a>
-      </p>
-    </section>
+      <section>
+        <section id="contato">
+          <h2>Contato</h2>
+          <p>
+            <a href="mailto:bia.stenico123@gmail.com">E-mail</a> ·
+            <a href="https://github.com/biaaaa41602" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/beatriz-stênico-ba3aa0321" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </section>
   </main>
 
   <footer>
-    <p>Feito por Beatriz Stênico</p>
+    <p>Desenvolvido por Beatriz Stênico</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
